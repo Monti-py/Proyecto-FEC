@@ -1,0 +1,101 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body, html {
+    width: 100%;
+    height: 100%;
+    font-family: Arial, sans-serif;
+    color: #070707;
+    overflow: hidden;
+  }
+  
+  /* Video */
+  #background-video {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: -1;
+  }
+  
+  .content-overlay {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    text-align: center;
+  }
+  
+  /* Header */
+  header {
+    position: absolute;
+    top: 20px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 50px;
+  }
+  
+  .logo {
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  nav a {
+    margin: 0 15px;
+    color: #0a0a0a;
+    text-decoration: none;
+    font-size: 18px;
+  }
+  
+  .cart-icon img {
+    width: 24px;
+    height: 24px;
+  }
+  
+  /* Content */
+  .main-content h1 {
+    font-size: 40px;
+    margin-bottom: 20px;
+  }
+  
+  .main-content button {
+    padding: 10px 20px;
+    font-size: 18px;
+    background-color: #f1eded;
+    color: #0c0b0b;
+    border: none;
+    cursor: pointer;
+    transition: background 0.3s;
+  }
+  
+  .main-content button:hover {
+    background-color: #ccc;
+  }
+  
+  /* Responsive */
+  @media (max-width: 768px) {
+    header {
+      padding: 0 20px;
+    }
+  
+    nav a {
+      margin: 0 10px;
+      font-size: 16px;
+    }
+  
+    .main-content h1 {
+      font-size: 30px;
+    }
+  
+    .main-content button {
+      font-size: 16px;
+    }
+  }
+  
