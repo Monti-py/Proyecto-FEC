@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #050a11;
+}
+
+#navbar{
+    display: grid;
+    grid-area: nav;
+    display: flex;
+    background-color: #1f2c38;
+    width: 100%;
+    height: 6vh;
+}
+
+h2{
+    font-family: "anta";
+    color: #e0e0e0;
+    font-size: 36px;
+}
+
+p{
+    font-family: 'anta';
+    color: #e0e0e0;
+    font-size: 1rem;
+}
+
+a{
+    font-family: rajdhani;
+    font-style: none;
+}
+
+.icono{
+    width: 50;
+    height: 50px;
+    margin-right: 1rem;
+}
+
+#principal{
+    /* esta no es la font*/
+    font-family: tektur;
+    font-size: 55px;
+}
