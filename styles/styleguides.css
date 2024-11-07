@@ -7,19 +7,54 @@ body{
     background-color: #050a11;
 }
 
-#navbar{
-    display: grid;
-    grid-area: nav;
-    display: flex;
-    background-color: #1f2c38;
-    width: 100%;
-    height: 6vh;
+#principal{
+    /* esta no es la font*/
+    font-family: tektur;
+    font-size: 55px;
 }
 
 h2{
-    font-family: "anta";
+    display: flex;
+    justify-content: center;
     color: #e0e0e0;
-    font-size: 36px;
+    font-family: "anta";
+    height: 40%;
+    width: 100%;
+
+    @media screen  and (max-width:767px){        
+        font-size: 36px;
+        margin: 2rem auto;
+    }
+
+    
+}
+
+h3{
+    display: flex;
+    justify-content: center;
+    color: #e0e0e0;
+    font-family: "anta";
+}
+
+h4{
+    display: flex;
+    justify-content: center;
+    color: #e0e0e0;
+    font-family: "anta";
+}
+
+h5{
+    display: flex;
+    justify-content: center;
+    color: #e0e0e0;
+    font-family: "anta";
+}
+
+h6{
+    display: flex;
+    justify-content: center;
+    color: #e0e0e0;
+    font-family: "anta";
 }
 
 p{
@@ -31,7 +66,48 @@ p{
 a{
     font-family: rajdhani;
     font-style: none;
+    
+}    
+
+
+.layout{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 6vh 1fr;
+    grid-template-areas: 
+    "nav"
+    "contenido";
+
 }
+
+
+#navbar{
+    display: grid;
+    grid-area: nav;
+    display: flex;
+    background-color: #1f2c38;
+    width: 100%;
+    height: 6vh;
+}
+
+nav ul{
+    display: flex;
+    min-width: 100%;
+    list-style-type: none;
+    justify-content: space-around;
+    align-items: center;
+    display: flex;
+    flex-flow: row nowrap;
+}
+
+nav ul a {
+    display: flex;
+    font-size: 14px;
+    margin: 20px;
+    color: #e0e0e0;  
+    text-decoration: none;
+}
+
 
 .icono{
     width: 50;
@@ -39,8 +115,71 @@ a{
     margin-right: 1rem;
 }
 
-#principal{
-    /* esta no es la font*/
-    font-family: tektur;
-    font-size: 55px;
+
+/*       Testimonio de usuario       */
+
+.flexbox-usuario{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+}
+
+.usuario-container{
+    justify-items: center;
+}
+
+.usuario-perfil {
+    display: flex;
+    flex-flow: row;
+    justify-content: start;
+    align-items: center;
+    flex-grow: 10;
+}
+
+.usuario-perfil h4 {
+    font-weight: bold;
+    color: #e0e0e0;
+
+    font-size: 1.2em;
+}
+
+.usuario-perfil img {
+    margin: 0.5rem 1.5rem;
+    border-radius: 50%;
+    
+    width: 60px;
+    height: 60px;
+}
+
+.usuario-texto {
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+    justify-content: center;
+    text-align: justify;
+    background-color: #599876; 
+    border-radius: 10px;
+    gap: 10px;
+
+    max-width: 340px;
+    padding: 20px;
+    margin: 0 20px 40px;
+
+    @media screen and (max-width: 767px) {
+    }
+
+    @media screen and (min-width: 768px) and  (max-width:1023px){
+
+    }
+}
+
+.usuario-texto h3 {
+    font-size: 1.5em;
+    color: #ffffff;
+    text-transform: capitalize;
+}
+
+.usuario-texto p {
+    font-size: 1em;
+    line-height: 1.6;
 }
