@@ -1,0 +1,127 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color:#070707;
+}
+
+.Formulario-section {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    background-color: #070707;
+}
+
+.info {
+    background-color: #599876;
+    color: #ccc;
+    padding: 20px;
+    text-align: center;
+}
+
+.info h2 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+.info h3 {
+    font-size: 1.3em;
+    margin-bottom: 15px;
+}
+
+.info p {
+    font-size: 0.9em;
+    margin-bottom: 20px;
+}
+
+.ver-ubicacion {
+    display: inline-block;
+    color:  #050a11;
+    text-decoration: none;
+    font-size: 0.9em;
+}
+
+.form-container {
+    background-color: white;
+    padding: 20px;
+    margin-top: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.form-container h4 {
+    text-align: center;
+    font-size: 1.2em;
+    margin-bottom: 15px;
+}
+
+.form-container h4 span {
+    color:  #599876;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+input, select, button {
+    margin-bottom: 15px;
+    padding: 10px;
+    font-size: 1em;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+button {
+    background-color:  #599876;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #599876;
+}
+
+/*seccion social-media*/
+.social-media {
+    background-color:  #ccc;
+    padding: 20px;
+    margin-top: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.social-media h4 {
+    font-size: 1.2em;
+    margin-bottom: 15px;
+}
+
+.social-links {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.social-link {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: #333;
+    font-size: 1em;
+}
+
+.social-link img {
+    width: 24px;
+    height: 24px;
+    margin-right: 8px;
+}
+
+.social-link span {
+    color: #599876;
+}
