@@ -6,14 +6,16 @@
     flex-flow: column nowrap;
     flex-grow: 1;
     width: 100%;
-    height: 94vh;
+    height: 35vh;
+    align-items: center;
 }
 
 .carousel {
     position: relative;
-    width: 90%;
+    width: 95%;
     max-width: 600px;
     overflow: hidden;
+    align-items: center;
 }
 
 .carousel-inner {
@@ -45,6 +47,7 @@
     align-items: center;
     opacity: 0;
     transition: opacity 0.3s ease;
+    
 }
 
 .carousel-item:hover .overlay {
