@@ -1,4 +1,8 @@
-
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
 
 #section-1{
     grid-area: contenido;
@@ -76,6 +80,7 @@
 .next {
     right: 10px;
 }
+
 
 @media (max-width: 768px) {
     .carousel-control {

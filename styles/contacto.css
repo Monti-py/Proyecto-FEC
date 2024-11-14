@@ -9,43 +9,43 @@ body {
     background-color:#070707;
 }
 
-.Formulario-section {
+#Formulario-section {
     display: flex;
     flex-direction: column;
     padding: 20px;
     background-color: #070707;
 }
 
-.info {
+#info {
     background-color: #599876;
     color: #ccc;
     padding: 20px;
     text-align: center;
 }
 
-.info h2 {
+#info h2 {
     font-size: 1.5em;
     margin-bottom: 10px;
 }
 
-.info h3 {
+#info h3 {
     font-size: 1.3em;
     margin-bottom: 15px;
 }
 
-.info p {
+#info p {
     font-size: 0.9em;
     margin-bottom: 20px;
 }
 
-.ver-ubicacion {
+#ver-ubicacion {
     display: inline-block;
     color:  #050a11;
     text-decoration: none;
     font-size: 0.9em;
 }
 
-.form-container {
+#form-container {
     background-color: white;
     padding: 20px;
     margin-top: 20px;
@@ -53,13 +53,13 @@ body {
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
-.form-container h4 {
+#form-container h4 {
     text-align: center;
     font-size: 1.2em;
     margin-bottom: 15px;
 }
 
-.form-container h4 span {
+#form-container h4 span {
     color:  #599876;
 }
 
@@ -88,7 +88,7 @@ button:hover {
 }
 
 /*seccion social-media*/
-.social-media {
+#social-media {
     background-color:  #ccc;
     padding: 20px;
     margin-top: 20px;
@@ -97,7 +97,7 @@ button:hover {
     text-align: center;
 }
 
-.social-media h4 {
+#social-media h4 {
     font-size: 1.2em;
     margin-bottom: 15px;
 }
@@ -124,4 +124,27 @@ button:hover {
 
 .social-link span {
     color: #599876;
+}
+
+
+@media screen and (width>=1024px) {
+    *{
+        background-color: green;
+    }
+}
+@media screen and (width<1024) and (width>425) {
+    #info h2 {
+        font-size: 4rem;
+        padding: 0;
+    }
+    *{
+        background-color: blue;
+    }
+}
+
+
+@media screen and (max-width<=425px) {
+    *{
+        background-color: red;
+    }
 }

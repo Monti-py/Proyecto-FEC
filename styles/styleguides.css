@@ -1,6 +1,7 @@
 *{
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
 body{
@@ -20,7 +21,8 @@ h2{
     font-family: "anta";
     height: 40%;
     width: 100%;
-
+    font-size: 2rem;
+    padding: 4vh 0;
     @media screen  and (max-width:767px){        
         font-size: 36px;
         margin: 2rem auto;
@@ -78,6 +80,7 @@ a{
     "nav"
     "contenido";
 
+
 }
 
 
@@ -87,7 +90,8 @@ a{
     display: flex;
     background-color: #1f2c38;
     width: 100%;
-    height: 6vh;
+    height: 10vh;
+
 }
 
 nav ul{
@@ -164,13 +168,6 @@ nav ul a {
     max-width: 340px;
     padding: 20px;
     margin: 0 20px 40px;
-
-    @media screen and (max-width: 767px) {
-    }
-
-    @media screen and (min-width: 768px) and  (max-width:1023px){
-
-    }
 }
 
 .usuario-texto h3 {
@@ -183,3 +180,4 @@ nav ul a {
     font-size: 1em;
     line-height: 1.6;
 }
+
