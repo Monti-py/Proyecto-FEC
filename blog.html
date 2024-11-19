@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/styleguides.css">
+    <link rel="stylesheet" href="styles/blog.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Anta&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Anta&family=Rajdhani:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Anta&family=Rajdhani:wght@300;400;500;600;700&family=Tektur:wght@400..900&display=swap" rel="stylesheet">
+    <title>Codearg.com</title>
+</head>
+
+<body>  
+    <header>
+        <nav id="navbar">
+            <ul>
+                <li>
+                    <img src="imagenes/logoProyectoFinalDDWxd.png" alt="" class="icono">
+                </li>
+                <!--puse desplegable pq dps tiene q verse como q es un desplegable para los menus amarillos-->
+                <li>
+                    <a href="#" class="dropbtn">Servicios</a>
+                    <div class="dropdown-content">
+                        <a href="#">Orientación Laboral</a>
+                        <a href="#">Ocupación</a>
+                        <a href="#">Red de Networking</a>
+                    </div>
+                </li>
+                <!--misma logica q antes pero con el canva (aparece solo en el celu)-->
+                <li>
+                    <a href="#" class="externo">Blog</a>
+                </li>
+                <li>
+                    <a href="#" class="dropbtn">Sobre Nosotros</a>
+                    <div class="dropdown-content">
+                        <a href="#">Nuestra Historia</a>
+                        <a href="contactos.html">Contactos</a>
+                    </div>l         
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <h2 id="principal">
+        CodeArg();
+    </h2>
+    <section id="historias" >
+        <div class="flexbox">
+            <h2>
+                Historias de Nuestros usuarios
+            </h2>
+            <div class="slidebox">
+                <div class="slide-item fade">
+                    <div class="usuario-container">
+                        <div class="usuario-perfil">
+                            <img src="imagenes/placeholder.png" alt="" class="foto-perfil">
+                            <h4>Pepe_Martinez</h4>
+                        </div>
+                        <div class="usuario-texto">
+                            <h3>Mi primera historia</h3>
+                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Harum nesciunt voluptates accusantium culpa. Vel eius natus facere numquam id, distinctio, accusantium quia qui, repudiandae repellat facilis! Sequi animi quasi placeat. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laboriosam illum et beatae minima quam fugiat nam distinctio nulla temporibus delectus ipsam soluta saepe esse, cumque repudiandae animi eum alias blanditiis?
+                            Ab, magnam porro molestiae deleniti eaque recusandae iure laudantium minima quidem explicabo dolore voluptatem dolorem illum ullam aperiam temporibus maiores ipsum asperiores ratione.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="slide-item fade">
+                    <div class="usuario-container">
+                        <div class="usuario-perfil">
+                            <img src="imagenes/placeholder.png" alt="" class="foto-perfil">
+                            <h4>montivirus</h4>
+                        </div>
+                        <div class="usuario-texto">
+                            <h3>Mi segunda historia</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda odio incidunt eligendi fugit eum ab adipisci omnis maxime nesciunt laborum magni excepturi impedit accusantium, commodi praesentium a quam. Similique, deserunt! Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia expedita fugit soluta similique at, quibusdam dolores fuga repellat, magni consequatur maiores? Cumque ipsum minima eum culpa est odio velit nobis. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptates quisquam quod tempora laboriosam voluptate.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="slide-item fade">
+                    <div class="usuario-container">
+                        <div class="usuario-perfil">
+                            <img src="imagenes/fotoperfil2.jpg" alt="" class="foto-perfil">
+                            <h4>seba.css</h4>
+                        </div>
+                        <div class="usuario-texto">
+                            <h3>Mi tercer historia</h3>
+                            <p> Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eos, repellendus fugiat rerum quod dolorem molestias nobis quo neque a quis voluptas facere temporibus corrupti distinctio, nemo cupiditate dolores aliquid placeat? Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dicta sint fugit illum magni, obcaecati minus natus iure voluptatem harum distinctio architecto id, nostrum odit nulla alias inventore explicabo voluptatum. Dolorum.  </p>
+                        </div>
+                    </div>
+                </div>
+                <a class="anterior" onclick="moverSlide(-1)">   &#10094;</a>
+                <a class="siguiente" onclick="moverSlide(1)">&#10095;</a>
+                <div class="">
+                    <span class="dot" onclick="slideActual(1)"></span>
+                    <span class="dot" onclick="slideActual(2)"></span>
+                    <span class="dot" onclick="slideActual(3)"></span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="historias" >
+        <div class="flexbox">
+            <h2>
+                Historias de Nuestros usuarios
+            </h2>
+            <div class="slidebox">
+                <div class="slide-item fade">
+                    <div class="usuario-container">
+                        <div class="usuario-perfil">
+                            <img src="imagenes/placeholder.png" alt="" class="foto-perfil">
+                            <h4>Pepe_Martinez</h4>
+                        </div>
+                        <div class="usuario-texto">
+                            <h3>Mi primera historia</h3>
+                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Harum nesciunt voluptates accusantium culpa. Vel eius natus facere numquam id, distinctio, accusantium quia qui, repudiandae repellat facilis! Sequi animi quasi placeat. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laboriosam illum et beatae minima quam fugiat nam distinctio nulla temporibus delectus ipsam soluta saepe esse, cumque repudiandae animi eum alias blanditiis?
+                            Ab, magnam porro molestiae deleniti eaque recusandae iure laudantium minima quidem explicabo dolore voluptatem dolorem illum ullam aperiam temporibus maiores ipsum asperiores ratione.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="slide-item fade">
+                    <div class="usuario-container">
+                        <div class="usuario-perfil">
+                            <img src="imagenes/placeholder.png" alt="" class="foto-perfil">
+                            <h4>montivirus</h4>
+                        </div>
+                        <div class="usuario-texto">
+                            <h3>Mi segunda historia</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda odio incidunt eligendi fugit eum ab adipisci omnis maxime nesciunt laborum magni excepturi impedit accusantium, commodi praesentium a quam. Similique, deserunt! Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia expedita fugit soluta similique at, quibusdam dolores fuga repellat, magni consequatur maiores? Cumque ipsum minima eum culpa est odio velit nobis. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptates quisquam quod tempora laboriosam voluptate.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="slide-item fade">
+                    <div class="usuario-container">
+                        <div class="usuario-perfil">
+                            <img src="imagenes/fotoperfil2.jpg" alt="" class="foto-perfil">
+                            <h4>seba.css</h4>
+                        </div>
+                        <div class="usuario-texto">
+                            <h3>Mi tercer historia</h3>
+                            <p> Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eos, repellendus fugiat rerum quod dolorem molestias nobis quo neque a quis voluptas facere temporibus corrupti distinctio, nemo cupiditate dolores aliquid placeat? Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dicta sint fugit illum magni, obcaecati minus natus iure voluptatem harum distinctio architecto id, nostrum odit nulla alias inventore explicabo voluptatum. Dolorum.  </p>
+                        </div>
+                    </div>
+                </div>
+                <a class="anterior" onclick="moverSlide(-1)">   &#10094;</a>
+                <a class="siguiente" onclick="moverSlide(1)">&#10095;</a>
+                <div class="">
+                    <span class="dot" onclick="slideActual(1)"></span>
+                    <span class="dot" onclick="slideActual(2)"></span>
+                    <span class="dot" onclick="slideActual(3)"></span>
+                </div>
+            </div>
+        </div>
+    </section>  
+    <script src="scripts/blog.js"></script>
+</body>
+</html>

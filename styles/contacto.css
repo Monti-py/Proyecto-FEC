@@ -1,4 +1,4 @@
-* {
+ * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -127,24 +127,21 @@ button:hover {
 }
 
 
-@media screen and (width>=1024px) {
-    *{
-        background-color: green;
+@media (max-width: 425px) {
+    * {
+      background-color: red; 
     }
-}
-@media screen and (width<1024) and (width>425) {
-    #info h2 {
-        font-size: 4rem;
-        padding: 0;
-    }
-    *{
-        background-color: blue;
-    }
-}
+  }
 
-
-@media screen and (max-width<=425px) {
-    *{
-        background-color: red;
+  @media (min-width: 426px) and (max-width: 1024px) {
+    * {
+      background-color: green;
     }
-}
+  }
+  
+  @media (min-width: 1024px) {
+    * {
+      background-color: blue;
+    }
+  }
+  
