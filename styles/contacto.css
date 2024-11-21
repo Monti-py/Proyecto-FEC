@@ -57,6 +57,7 @@ body {
     text-align: center;
     font-size: 1.2em;
     margin-bottom: 15px;
+    color: black;
 }
 
 #form-container h4 span {
@@ -100,6 +101,7 @@ button:hover {
 #social-media h4 {
     font-size: 1.2em;
     margin-bottom: 15px;
+    color: #333;
 }
 
 .social-links {
@@ -128,9 +130,9 @@ button:hover {
 
 
 @media screen and (width>=1024px) {
-    *{
+    /**{
         background-color: green;
-    }
+    }*/
 }
 @media screen and (width<1024) and (width>425) {
     #info h2 {

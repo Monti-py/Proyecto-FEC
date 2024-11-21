@@ -33,6 +33,7 @@ nav ul li a:hover {
     color: black;
 }
 
+
 nav ul li .dropdown-content {
     display: none;
     position: absolute;
@@ -161,6 +162,47 @@ nav ul li:hover .dropdown-content {
     padding-right: 7.5vw;
 }
 
+/*seccion social-media*/
+#social-media {
+    background-color:  #ccc;
+    padding: 20px;
+    margin-top: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+#social-media h4 {
+    font-size: 1.2em;
+    margin-bottom: 15px;
+    color: #333;
+}
+
+.social-links {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.social-link {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: #333;
+    font-size: 1em;
+}
+
+.social-link img {
+    width: 24px;
+    height: 24px;
+    margin-right: 8px;
+}
+
+.social-link span {
+    color: #599876;
+}
+
+
 @media (max-width: 768px) {
     .carousel-control {
         font-size: 20px;
@@ -184,3 +226,4 @@ nav ul li:hover .dropdown-content {
     align-items: center;
     
 }
+
