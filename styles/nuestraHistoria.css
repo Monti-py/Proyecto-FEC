@@ -1,3 +1,4 @@
+/* General styles */
 * {
     margin: 0;
     padding: 0;
@@ -21,9 +22,10 @@ nav ul {
     justify-content: space-around;
 }
 
-.nav ul li {
+nav ul li {
     position: relative;
 }
+
 nav ul li a {
     display: block;
     color: #ddd;
@@ -42,7 +44,7 @@ nav ul li .dropdown-content {
     position: absolute;
     background-color: #f9f9f9;
     min-width: 160px;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
     z-index: 1;
 }
 
@@ -66,31 +68,59 @@ nav ul li:hover .dropdown-content {
     margin: 0;
 }
 
-
-
-.seccionQS {
-    margin-top: 5vh;
-}
+/* .seccionQS {
+    height: 20vh;
+    align-items: center;
+} */
 
 .tituloQS {
-    padding-top: 5vh;
-    padding-bottom: 5vh;
-    margin-left: 5vw;
+    margin-top: 10vh;
+    margin-bottom: 5vh;
 }
 
-.divTextoQS {
-    display: flex;
-    flex-direction: row;
-    margin-right: 15vw;
-    margin-left: 15vw;
-    width: 70vw;
-    align-items: center;
+/* FAQ styles */
+.faq-container {
+    max-width: 600px;
+    margin: 20px auto;
+    background: #1f2c38;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
 
-.fotoQS {
-    width: 10vw;
+.faq-item {
+    border-bottom: 1px solid #32c983;
 }
 
+.faq-item:last-child {
+    border-bottom: none;
+}
+
+.faq-question {
+    padding: 15px;
+    font-size: 16px;
+    cursor: pointer;
+    background: #1f2c38;
+    color: #fff;
+}
+
+.faq-question:hover {
+    background: #283158;
+}
+
+.faq-answer {
+    max-height: 0;
+    overflow: hidden;
+    padding: 0 15px;
+    font-size: 14px;
+    background: #283158;
+    color: #fff;
+    transition: max-height 0.3s ease, padding 0.3s ease;
+}
+
+.faq-answer.open {
+    max-height: 200px;
+    padding: 15px;
+}
 /*seccion social-media*/
 #social-media {
     background-color:  #ccc;
@@ -132,6 +162,7 @@ nav ul li:hover .dropdown-content {
 }
 
 
+/* Responsive styles */
 @media (max-width: 600px) {
     nav ul {
         flex-direction: column;
@@ -139,5 +170,9 @@ nav ul li:hover .dropdown-content {
     
     nav ul li {
         text-align: center;
+    }
+
+    .faq-container {
+        margin: 10px;
     }
 }
