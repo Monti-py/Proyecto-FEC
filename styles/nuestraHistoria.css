@@ -22,9 +22,9 @@ nav ul {
     justify-content: space-around;
 }
 
-nav ul li {
+/* nav ul li {
     position: relative;
-}
+} */
 
 nav ul li a {
     display: block;
