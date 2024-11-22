@@ -4,6 +4,75 @@
     box-sizing: border-box;
 }
 
+nav {
+    background-color: #333;
+    overflow: hidden;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-around;
+}
+
+.nav ul li {
+    position: relative;
+}
+nav ul li a {
+    display: block;
+    color: #ddd;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+
+nav ul li .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+nav ul li .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+nav ul li .dropdown-content a:hover {
+    background-color: #ddd;
+}
+
+nav ul li:hover .dropdown-content {
+    display: block;
+}
+
+@media (max-width: 600px) {
+    nav ul {
+        flex-direction: column;
+    }
+    
+    nav ul li {
+        text-align: center;
+    }
+}
+
+.dropbtn {
+    margin: 0;
+}
+
 body {
     font-family: Arial, sans-serif;
     background-color:#070707;
@@ -12,8 +81,9 @@ body {
 #Formulario-section {
     display: flex;
     flex-direction: column;
-    padding: 20px;
+    /* padding: 20px; */
     background-color: #070707;
+    /* height: 80vh; */
 }
 
 #info {
@@ -48,7 +118,8 @@ body {
 #form-container {
     background-color: white;
     padding: 20px;
-    margin-top: 20px;
+    margin-top: 10vh;
+    margin-bottom: 10vh;
     border-radius: 8px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
@@ -92,7 +163,7 @@ button:hover {
 #social-media {
     background-color:  #ccc;
     padding: 20px;
-    margin-top: 20px;
+    /* margin-top: 20px; */
     border-radius: 8px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     text-align: center;
@@ -125,7 +196,7 @@ button:hover {
 }
 
 .social-link span {
-    color: #599876;
+    color: #1f2c38;
 }
 
 

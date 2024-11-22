@@ -69,7 +69,6 @@ nav ul li:hover .dropdown-content {
 
 
 .seccionQS {
-    
     margin-top: 5vh;
 }
 
@@ -82,13 +81,14 @@ nav ul li:hover .dropdown-content {
 .divTextoQS {
     display: flex;
     flex-direction: row;
-    margin-right: 10vw;
-    margin-left: 10vw;
-    
+    margin-right: 15vw;
+    margin-left: 15vw;
+    width: 70vw;
+    align-items: center;
 }
 
 .fotoQS {
-    width: 20vw;
+    width: 10vw;
 }
 
 /*seccion social-media*/
@@ -128,7 +128,7 @@ nav ul li:hover .dropdown-content {
 }
 
 .social-link span {
-    color: #599876;
+    color: #1f2c38;
 }
 
 
