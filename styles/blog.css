@@ -62,8 +62,14 @@
     .flex-item h2{
         margin-top: 14rem;
         width: 50%;
-        font-size: 400%;
+        font-size: 400%;  
     }
+
+    #exitos h2, #reseñas h2{
+        margin-top: 4rem;
+        width: 50%;
+        font-size: 400%;  
+    }   
     
 }
 
