@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/styleguides.css">
+    <link rel="stylesheet" href="styles/blog.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Anta&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Anta&family=Rajdhani:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Anta&family=Rajdhani:wght@300;400;500;600;700&family=Tektur:wght@400..900&display=swap" rel="stylesheet">
+    <title>Codearg.com</title>
+</head>
+
+<body>  
+    <header>
+        <nav id="navbar">
+            <ul>
+                <li>
+                    <img src="imagenes/logoProyectoFinalDDWxd.png" alt="" class="icono">
+                </li>
+                <!--puse desplegable pq dps tiene q verse como q es un desplegable para los menus amarillos-->
+                <li>
+                    <a href="#" class="dropbtn">Servicios</a>
+                    <div class="dropdown-content">
+                        <a href="#">Orientación Laboral</a>
+                        <a href="#">Ocupación</a>
+                        <a href="#">Red de Networking</a>
+                    </div>
+                </li>
+                <!--misma logica q antes pero con el canva (aparece solo en el celu)-->
+                <li>
+                    <a href="#" class="externo">Blog</a>
+                </li>
+                <li>
+                    <a href="#" class="dropbtn">Sobre Nosotros</a>
+                    <div class="dropdown-content">
+                        <a href="#">Nuestra Historia</a>
+                        <a href="contactos.html">Contactos</a>
+                    </div>l         
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="flexbox">
+        <section id="historias" class="flex-item" >   
+            <h2>
+                Historias de Nuestros usuarios
+            </h2>
+            <div class="slidebox" id="slideshow1">
+                <div class="slide-item fade">
+                    <div class="usuario-container">
+                        <div class="usuario-perfil">
+                            <img src="imagenes/placeholder.png" alt="" class="foto-perfil">
+                            <h4>JuanTechie</h4>
+                        </div>
+                        <div class="usuario-texto">
+                            <h3>El Curioso Autodidacta</h3>
+                            <p>Desde pequeño, Juan sentía una atracción por los dispositivos electrónicos. Sin embargo, nunca se había planteado aprender a programar porque pensaba que era algo "solo para genios". Un día, mientras navegaba en redes sociales, un amigo compartió su experiencia con CodeArg, y eso despertó su curiosidad.
+                            "Al principio tenía miedo, creía que sería demasiado complicado para alguien que no sabía nada de tecnología más allá de usar el celular. Pero las primeras lecciones fueron tan claras y accesibles que empecé a disfrutarlo. Me gustó especialmente que cada módulo tenía proyectos pequeños, como crear una calculadora o un juego sencillo. Eso hizo que sintiera que realmente estaba logrando algo".
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="slide-item fade">
+                    <div class="usuario-container">
+                        <div class="usuario-perfil">
+                            <img src="imagenes/placeholder.png" alt="" class="foto-perfil">
+                            <h4>AnaDesignFlow</h4>
+                        </div>
+                        <div class="usuario-texto">
+                            <h3> soñadora profesional</h3>
+                            <p>Ana había trabajado durante años como diseñadora gráfica freelance, pero sentía que algo le faltaba. Sus clientes empezaron a pedirle páginas web completas, pero ella no sabía cómo desarrollarlas. Buscando una solución, se topó con CodeArg y decidió probarlo.
+                            "Lo que más me gustó fue cómo los cursos estaban organizados para que cualquiera pudiera entenderlos, incluso si no tenías conocimientos previos. Cada lección me daba confianza para seguir avanzando. Antes solo diseñaba, pero ahora puedo ofrecer servicios completos de diseño y desarrollo web, lo que ha duplicado mis ingresos en poco tiempo".</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="slide-item fade">
+                    <div class="usuario-container">
+                        <div class="usuario-perfil">
+                            <img src="imagenes/fotoperfil2.jpg" alt="" class="foto-perfil">
+                            <h4>luiz</h4>
+                        </div>
+                        <div class="usuario-texto">
+                            <h3>montivirus</h3>
+                            <p> Luis era un joven apasionado por los videojuegos. Pasaba horas jugando y soñando con crear su propio juego algún día, pero no sabía por dónde empezar. Alguien en un foro de videojuegos mencionó CodeArg, y Luis decidió inscribirse para ver si realmente podía aprender a programar.
+                            "Al principio pensé que sería muy técnico y aburrido, pero fue todo lo contrario. Las clases eran dinámicas y estaban llenas de ejemplos reales. Uno de los proyectos del curso era crear un pequeño juego tipo ‘Adivina el número’, y ahí supe que realmente podía lograrlo".  </p>
+                        </div>
+                    </div>
+                </div>
+                <a class="anterior" onclick="moverSlide(-1, 'slideshow1')">&#10094;</a>
+                <a class="siguiente" onclick="moverSlide(1, 'slideshow1')">&#10095;</a>
+                <div class="dot-container">
+                    <span class="dot" onclick="slideActual(1, 'slideshow1')"></span>
+                    <span class="dot" onclick="slideActual(2, 'slideshow1')"></span>
+                    <span class="dot" onclick="slideActual(3, 'slideshow1')"></span>
+                </div>
+            </div>
+        </div>
+        </section>
+        <section id="exitos"class="flex-item">
+        <h2>
+            sus exitos
+        </h2>
+        <div class="slidebox" id="slideshow2">
+            <div class="slide-item fade">
+                <div class="usuario-container">
+                    <div class="usuario-perfil">
+                        <img src="imagenes/placeholder.png" alt="" class="foto-perfil">
+                        <h4>Sofia.css</h4>
+                    </div>
+                    <div class="usuario-texto">
+                        <h3>Sofia.css</h3>
+                        <p>Sofía era ama de casa y madre de dos hijos pequeños. Aprovechó sus momentos libres para inscribirse en CodeArg como una forma de aprender algo nuevo.
+                        "Comencé por curiosidad, sin expectativas, pero los ejercicios prácticos me motivaron a seguir. Me di cuenta de que la programación no era tan inalcanzable como pensaba".
+                        Ahora, Sofía trabaja como freelance, desarrollando proyectos web para negocios locales y disfrutando de una nueva fuente de ingresos.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="slide-item fade">
+                <div class="usuario-container">
+                    <div class="usuario-perfil">
+                        <img src="imagenes/placeholder.png" alt="" class="foto-perfil">
+                        <h4>MarcosBuilds</h4>
+                    </div>
+                    <div class="usuario-texto">
+                        <h3>Marcos</h3>
+                        <p>Marcos, estudiante de ingeniería civil, enfrentó dificultades para encontrar empleo en su área. Decidió probar CodeAr y descubrió un nuevo camino profesional.
+                        "Desde el inicio, el curso me preparó para tareas reales: bases de datos, sitios web completos… todo lo que necesitaba para el mercado laboral".
+                        Poco después, consiguió un trabajo como desarrollador junior y planea seguir especializándose en el desarrollo de software.<p>
+                    </div>
+                </div>
+            </div>
+            <div class="slide-item fade">
+                <div class="usuario-container">
+                    <div class="usuario-perfil">
+                        <img src="imagenes/fotoperfil2.jpg" alt="" class="foto-perfil">
+                        <h4>@CarlaInno</h4>
+                    </div>
+                    <div class="usuario-texto">
+                        <h3>Carla</h3>
+                        <p>Carla soñaba con liderar su propio negocio, pero los costos de contratar desarrolladores eran demasiado altos. Gracias a CodeArg, aprendió a crear la aplicación para su servicio de delivery personalizado.
+                        "Los cursos no solo me enseñaron a programar, sino a resolver problemas y convertir ideas en realidades".
+                        Hoy, su empresa está prosperando, y Carla sigue perfeccionando la aplicación para mejorar su alcance.</p>
+                    </div>
+                </div>
+            </div>
+
+            <a class="anterior" onclick="moverSlide(-1, 'slideshow2')">&#10094;</a>
+            <a class="siguiente" onclick="moverSlide(1, 'slideshow2')">&#10095;</a>
+            <div class="dot-container"> 
+                <span class="dot" onclick="slideActual(1, 'slideshow2')"></span>
+                <span class="dot" onclick="slideActual(2, 'slideshow2')"></span>
+                <span class="dot" onclick="slideActual(3, 'slideshow2')"></span>
+            </div>
+        </section>  
+        <section id="reseñas"class="flex-item">
+            <h2>
+                reseñas
+            </h2>
+            <div class="slidebox" id="slideshow3">
+                <div class="slide-item fade">
+                    <div class="usuario-container">
+                        <div class="usuario-perfil">
+                            <img src="imagenes/placeholder.png" alt="" class="foto-perfil">
+                            <h4>MartinDevLife</h4>
+                        </div>
+                        <div class="usuario-texto">
+                            <h3>positivo y agradecido</h3>
+                            <p>"CodeArg es lo mejor que me ha pasado. Antes no tenía idea de cómo empezar a programar, pero el curso fue tan claro y práctico que me enganché desde la primera semana. Me encanta cómo los proyectos te hacen aplicar lo que aprendes de inmediato. Gracias a ellos, ahora tengo confianza en mis habilidades y estoy planeando lanzar mi propia página web personal. Definitivamente lo recomiendo a cualquiera que quiera aprender desde cero."</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="slide-item fade">
+                    <div class="usuario-container">
+                        <div class="usuario-perfil">
+                            <img src="imagenes/placeholder.png" alt="" class="foto-perfil">
+                            <h4>gabriela</h4>
+                        </div>
+                        <div class="usuario-texto">
+                            <h3>Mi crítica constructiva</h3>
+                            <p>Los cursos de CodeArg tienen mucho potencial, pero todavía hay áreas para mejorar. El contenido es excelente y bien explicado, pero me frustré un poco con el soporte técnico. A veces tardan en responder las preguntas en el foro, y eso puede ser un problema si estás atascado. A pesar de eso, aprendí mucho y logré completar el curso, así que definitivamente lo recomendaría si eres paciente y autodidacta."</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="slide-item fade">
+                    <div class="usuario-container">
+                        <div class="usuario-perfil">
+                            <img src="imagenes/fotoperfil2.jpg" alt="" class="foto-perfil">
+                            <h4>NiCoder</h4>
+                        </div>
+                        <div class="usuario-texto">
+                            <h3>satisfecho</h3>
+                            <p> "Empecé CodeArg sin saber absolutamente nada de programación, y ahora estoy trabajando como desarrollador web junior. Lo que más me gustó fue el enfoque práctico y cómo cada módulo te prepara para problemas reales que podrías enfrentar en el trabajo. Es una inversión de tiempo y dinero que realmente vale la pena. Estoy muy agradecido por todo lo que aprendí aquí." </p>
+                        </div>
+                    </div>
+                </div>
+                <a class="anterior" onclick="moverSlide(-1, 'slideshow3')">&#10094;</a>
+                <a class="siguiente" onclick="moverSlide(1, 'slideshow3')">&#10095;</a>
+                <div>
+                    <div class="dot-container">
+                        <span class="dot" onclick="slideActual(1, 'slideshow3')"></span>
+                        <span class="dot" onclick="slideActual(2, 'slideshow3')"></span>
+                        <span class="dot" onclick="slideActual(3, 'slideshow3')"></span>
+                    </div>
+                    
+                </div>
+        </section> 
+    </main>
+    <script src="scripts/blog.js"></script>
+</body>
+</html>
