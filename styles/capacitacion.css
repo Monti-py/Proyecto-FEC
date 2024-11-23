@@ -80,7 +80,8 @@
     /* padding: 1rem; */
   }
   
-  .textArriba {
+  .textoArriba {
+    margin-top: 3vh;
     text-align: center;
     margin-bottom: 2rem;
   }
@@ -170,13 +171,18 @@
     background-color: #93ffa1;
   }
   /* Sección Certificación */
-.certificacion {
+  .certificacion {
     display: flex;
     flex-direction: column;
     gap: 1rem;
     text-align: center;
   }
   
+  .texto {
+    margin-right: auto;
+    margin-left: auto;
+  }
+
   .certificacion .texto h1 {
     font-size: 1.5rem;
     color: #faf4f4;
@@ -238,6 +244,16 @@
     color: #fff;
   }
   
+  .certificacion .texto {
+    max-width: 70%;
+  }
+
+  .beneficios {
+    flex-direction: row;
+    justify-content: space-around;
+    text-align: center;
+  }
+
   /* Responsive para pantallas más grandes */
   @media (min-width: 768px) {
     .certificacion {
@@ -245,16 +261,8 @@
       justify-content: space-between;
       align-items: center;
       text-align: left;
-    }}
-    .certificacion .texto {
-      max-width: 50%;
     }
-  
-    .beneficios {
-      flex-direction: row;
-      justify-content: space-around;
-      text-align: center;
-    }
+  }
 
 /*seccion social-media*/
 #social-media {
@@ -318,6 +326,5 @@
   margin-bottom: 3vh;
   justify-content: center;
   align-items: center;
-  
 }
 
