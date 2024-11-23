@@ -55,6 +55,8 @@ nav ul li .dropdown-content a {
     text-align: left;
 }
 
+
+/* */
 nav ul li .dropdown-content a:hover {
     background-color: #ddd;
 }
