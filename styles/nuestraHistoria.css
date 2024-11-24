@@ -73,13 +73,13 @@ nav ul li:hover .dropdown-content {
     align-items: center;
 } */
 
-.tituloQS {
+.tituloNH {
     margin-top: 10vh;
-    margin-bottom: 5vh;
+    margin-bottom: 3vh;
 }
 
 /* FAQ styles */
-.faq-container {
+/* .faq-container {
     max-width: 600px;
     margin: 20px auto;
     background: #1f2c38;
@@ -120,7 +120,28 @@ nav ul li:hover .dropdown-content {
 .faq-answer.open {
     max-height: 200px;
     padding: 15px;
+} */
+
+
+#cont {
+    display: flex;
+    flex-direction: row;
+    width: 60vw;
+    margin-right: 20vw;
+    margin-left: 20vw;
+    align-items: center;
 }
+
+#cont p {
+    width: 40vw;
+}
+
+#logoEnNH {
+    width: 20vw;
+}
+
+
+
 /*seccion social-media*/
 #social-media {
     background-color:  #ccc;
@@ -174,5 +195,24 @@ nav ul li:hover .dropdown-content {
 
     .faq-container {
         margin: 10px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .tituloNH {
+        text-align: center;
+    }
+
+    #cont {
+        flex-direction: column;
+        text-align: center;
+    }
+    
+    #cont p {
+        width: 90vw;
+    }
+
+    #logoEnNH {
+        width: 60vw;
     }
 }
