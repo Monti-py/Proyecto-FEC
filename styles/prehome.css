@@ -32,33 +32,6 @@
     text-align: center;
   }
   
-  /* Header */
-  header {
-    position: absolute;
-    top: 20px;
-    width: 100%;
-    display: flex;
-    justify-content: space-between;
-    padding: 0 50px;
-  }
-  
-  .logo {
-    font-size: 24px;
-    font-weight: bold;
-  }
-  
-  nav a {
-    margin: 0 15px;
-    color: #0a0a0a;
-    text-decoration: none;
-    font-size: 18px;
-  }
-  
-  .cart-icon img {
-    width: 24px;
-    height: 24px;
-  }
-  
   /* Content */
   .main-content h1 {
     font-size: 40px;
@@ -81,14 +54,6 @@
   
   /* Responsive */
   @media (max-width: 768px) {
-    header {
-      padding: 0 20px;
-    }
-  
-    nav a {
-      margin: 0 10px;
-      font-size: 16px;
-    }
   
     .main-content h1 {
       font-size: 30px;
@@ -102,5 +67,5 @@
 
 
 
-/*home*/
+
 

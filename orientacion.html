@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/orientacio.css">
+    <link rel="stylesheet" href="styles/styleguides.css">
+    <title>Orientación Laboral IT</title>
+</head>
+<body>
+    <header>
+        <nav id="navbar" class="layout">
+            <ul>
+                <li>
+                    <a href="home.html"><img src="imagenes/logoProyectoFinalDDWxd.png" alt="LogoCodeArg" class="icono"></a>
+                </li>
+                <!--puse desplegable pq dps tiene q verse como q es un desplegable para los menus amarillos-->
+                <li>
+                    <a href="#" class="dropbtn">Servicios</a>
+                    <div class="dropdown-content">
+                        <a href="orientacion.html">Orientación Laboral</a>
+                        <a href="#">Ocupación</a>
+                        <a href="capacitacion.html">Capacitación</a>
+                    </div>
+                </li>
+                <!--misma logica q antes pero con el canva (aparece solo en el celu)-->
+                <li>
+                    <a href="blog.html" class="externo">Blog</a>
+                </li>
+                <li>
+                    <a href="#" class="dropbtn">Sobre Nosotros</a>
+                    <div class="dropdown-content">
+                        <a href="nuestraHistoria.html">Nuestra Historia</a>
+                        <a href="contactos.html">Contactos</a>
+                    </div>
+                </li>
+            </ul>
+        </nav>
+    </header>
+   
+    <main id="principal" class="layout">
+        
+        <section class="contenido">
+            <h1>Orientación Laboral en IT</h1>
+
+            <!-- Barra de búsqueda -->
+            <div class="buscador">
+                <input 
+                    type="text" 
+                    id="busqueda" 
+                    placeholder="Buscar información..." 
+                    oninput="filtrarContenido()">
+            </div>
+
+            <!-- Contenido con decoraciones -->
+            <div class="seccion" data-content="salarios">
+                <h2>
+                    <img src="imagenes/salario.png" alt="Ícono Salarios" class="icono-titulo">
+                    Salarios en Informática
+                </h2>
+                <hr class="linea-decorativa">
+                <p>
+                    El sector de la informática es uno de los mejor remunerados en Argentina, y su demanda no deja de crecer. De acuerdo con la Cámara de la Industria Argentina del Software (CESSI), el salario promedio para un programador junior, es decir, alguien con poca experiencia, ronda los $200.000 brutos mensuales. Por otro lado, los profesionales con experiencia (senior) o especializados en áreas como inteligencia artificial, ciberseguridad o ciencia de datos pueden superar los $500.000 mensuales.
+
+                    Además, muchas empresas ofrecen beneficios adicionales como bonos por desempeño, ajustes salariales por inflación y pagos en dólares para retener talento. Los salarios suelen estar vinculados a las competencias del trabajador y al tipo de empresa: multinacionales y empresas tecnológicas grandes suelen pagar más que startups o pymes locales. Si buscas un sector con posibilidades económicas atractivas, la informática es una excelente opción.
+                </p>
+            </div>
+
+            <div class="seccion" data-content="horarios modalidad">
+                <h2>
+                    <img src="imagenes/horario.png" alt="Ícono Horarios" class="icono-titulo">
+                    Horarios y Modalidad de Trabajo
+                </h2>
+                <hr class="linea-decorativa">
+                <p>
+                    Uno de los grandes atractivos de trabajar en informática es la flexibilidad horaria y las modalidades de trabajo remoto que muchas empresas ofrecen. En general, la jornada laboral en Argentina es de 8 horas diarias, aunque en el sector IT es común encontrar jornadas más reducidas, de entre 6 y 7 horas al día, dependiendo del puesto y la empresa.Por otro lado, el trabajo remoto, que se popularizó durante la pandemia, sigue siendo una tendencia sólida en el sector. Muchas compañías ofrecen esquemas híbridos o totalmente remotos, permitiendo a los empleados trabajar desde cualquier lugar. Esto es ideal para quienes buscan equilibrar la vida personal y laboral. Sin embargo, hay que estar preparados para picos de trabajo intensos, especialmente cuando se acercan fechas de entrega importantes. Es clave organizarse y negociar tus horas extras para que sean reconocidas según la ley.
+                </p>
+            </div>
+
+            <div class="seccion" data-content="tipos trabajo">
+                <h2>
+                    <img src="imagenes/trabajo.png" alt="Ícono Trabajo" class="icono-titulo">
+                    Tipos de Trabajo
+                </h2>
+                <hr class="linea-decorativa">
+                <p>
+                    El sector IT ofrece una amplia variedad de roles y oportunidades laborales que se adaptan a diferentes habilidades e intereses. Algunos de los trabajos más comunes en informática son:
+
+                    Desarrollador de Software: Diseña y crea aplicaciones web, móviles o de escritorio. Es uno de los roles más demandados.
+                    Soporte Técnico: Brinda asistencia para resolver problemas de hardware y software en empresas o usuarios individuales.
+                    Analista de Datos: Trabaja con grandes volúmenes de datos, analizándolos para obtener información clave que ayude a tomar decisiones estratégicas.
+                    Especialista en Ciberseguridad: Protege sistemas, redes y datos de posibles ataques informáticos.
+                    Administrador de Redes: Configura y mantiene la infraestructura tecnológica de las empresas.
+                    Cada rol requiere habilidades específicas, pero muchos se pueden aprender a través de cursos online, bootcamps o carreras universitarias. Investigar y probar diferentes áreas es clave para encontrar tu camino.
+                </p>
+            </div>
+
+            <div class="seccion" data-content="gremios asociaciones">
+                <h2>
+                    <img src="imagenes/gremio.png" alt="Ícono Gremios" class="icono-titulo">
+                    Gremios y Asociaciones
+                </h2>
+                <hr class="linea-decorativa">
+                <p>
+                    En Argentina, los trabajadores de informática tienen acceso a gremios y asociaciones que buscan proteger sus derechos y mejorar sus condiciones laborales. Algunos de los más importantes son:Unión Informática: Un sindicato dedicado exclusivamente a trabajadores del sector IT, que promueve negociaciones salariales colectivas y regula horarios y condiciones laborales.Sindicato de Informáticos de Argentina (SINDAR): Representa a profesionales de empresas privadas, ayudando en casos de conflictos laborales y ofreciendo asesoramiento legal.Pertenecer a un gremio no solo te protege frente a abusos laborales, sino que también te permite participar en negociaciones colectivas y acceder a beneficios como capacitaciones gratuitas, becas y programas de actualización profesional.
+                </p>
+            </div>
+        </section>
+    </main>
+    <footer id="social-media">
+        <h4>Síguenos en nuestras redes sociales</h4>
+        <div class="social-links">
+            <a href="https://www.facebook.com/tu-pagina" target="_blank" class="social-link">
+                <img src="imagenes/facebook-icon.webp" alt="Facebook">
+                <span>@CodeArg();</span>
+            </a>
+            <a href="https://twitter.com/tu-pagina" target="_blank" class="social-link">
+                <img src="imagenes/twitter-icon.png" alt="Twitter">
+                <span>@CodeArg();</span>
+            </a>
+            <a href="https://www.instagram.com/tu-pagina" target="_blank" class="social-link">
+                <img src="imagenes/instagram-icon.png" alt="Instagram">
+                <span>@CodeArg();</span>
+            </a>
+        </div>
+    </footer>
+    <script src="orientacion.js"></script>
+</body>
+</html>
