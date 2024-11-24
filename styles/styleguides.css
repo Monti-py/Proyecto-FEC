@@ -111,7 +111,7 @@ nav ul{
 nav ul a {
     display: flex;
     font-size: 14px;
-    margin: 20px;
+    /* margin: 20px; */
     color: #e0e0e0;  
     text-decoration: none;
 }

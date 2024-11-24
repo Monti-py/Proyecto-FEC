@@ -92,7 +92,7 @@ body {
 }
 
 .contenedorMain {
-    height: 80vh;
+    height: auto;
 }
 
 .container {
@@ -204,6 +204,10 @@ body {
     border-radius: 8px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     text-align: center;
+    /* position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%; */
 }
 
 #social-media h4 {
@@ -269,6 +273,11 @@ body {
     .modalidad h3 {
         font-size: 1.3em;
     }
+
+    .contenedorMain {
+        height: 70vh;
+    }
+
 }
 
 @media (min-width: 1024px) {

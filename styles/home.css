@@ -1,8 +1,8 @@
-*{
+/* *{
     box-sizing: border-box;
     padding: 0;
     margin: 0;
-}
+} */
 
 nav {
     background-color: #333;
@@ -60,9 +60,9 @@ nav ul li:hover .dropdown-content {
 }
 
 @media (max-width: 600px) {
-    nav ul {
+    /* nav ul {
         flex-direction: column;
-    }
+    } */
     
     nav ul li {
         text-align: center;
@@ -208,7 +208,7 @@ nav ul li:hover .dropdown-content {
 }
 
 .faq-answer.open {
-    max-height: 200px;
+    max-height: 1000px;
     padding: 15px;
 }
 
@@ -281,9 +281,9 @@ nav ul li:hover .dropdown-content {
 
 /* Responsive styles */
 @media (max-width: 600px) {
-    nav ul {
+    /* nav ul {
         flex-direction: column;
-    }
+    } */
     
     nav ul li {
         text-align: center;

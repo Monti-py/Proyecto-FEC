@@ -65,9 +65,9 @@ nav ul li:hover .dropdown-content {
 }
 
 @media (max-width: 600px) {
-    nav ul {
+    /* nav ul {
         flex-direction: column;
-    }
+    } */
     
     nav ul li {
         text-align: center;

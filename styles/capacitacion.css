@@ -178,6 +178,11 @@
     text-align: center;
   }
   
+  .certOficial {
+    display: block;
+    text-align: center;
+  }
+
   .texto {
     margin-right: auto;
     margin-left: auto;
