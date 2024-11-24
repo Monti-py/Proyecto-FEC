@@ -202,8 +202,31 @@ p {
     }
 }
 
+/* Celulares */
+@media screen and (min-width: 425px) {
+    h1 {
+        font-size: 2rem;
+    }
+    
+    h2 {
+        font-size: 1.5rem;
+    }
+
+    p {
+        font-size: 0.8rem;
+    }
+
+    .seccion {
+        padding: 1.3rem;
+    }
+}
+
 /* Tablets */
 @media screen and (min-width: 768px) {
+    h1 {
+        font-size: 3rem;
+    }
+    
     h2 {
         font-size: 2.5rem;
     }
