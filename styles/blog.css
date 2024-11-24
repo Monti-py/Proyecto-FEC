@@ -114,7 +114,13 @@ nav ul li:hover .dropdown-content {
 .usuario-container {
     display: flex;
     flex-direction: column;
+    align-items: center;
     padding: 10px;
+}
+
+.usuario-perfil {
+    display: flex;
+    flex-direction: column;
 }
 
 .usuario-perfil img {
@@ -241,7 +247,7 @@ nav ul li:hover .dropdown-content {
         height: 120px;
     }
 
-    .usuario-texto {
+    /* .usuario-texto {
         max-width: 50%;
-    }
+    } */
 }
