@@ -173,7 +173,7 @@ nav ul a {
     border-radius: 10px;
     gap: 10px;
 
-    max-width: 340px;
+    /* max-width: 340px; */
     padding: 20px;
     margin: 0 20px 40px;
 
