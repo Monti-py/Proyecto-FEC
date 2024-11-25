@@ -206,7 +206,7 @@ section:hover img {
         height: 8vh; /* Reducción de altura del header para móviles pequeños */
     }
 
-    footer {
-        height: 8vh; /* Reducción de altura del footer para móviles pequeños */
-    }
+    /* footer {
+        height: 8vh; Reducción de altura del footer para móviles pequeños
+    } */
 }
