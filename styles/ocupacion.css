@@ -104,6 +104,7 @@ div {
 section img {
     height: 200px;
     padding: 10px 20px;
+    border-radius: 10%;
     transition: transform 0.3s ease;
 }
 
